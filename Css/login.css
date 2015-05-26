@@ -1,0 +1,58 @@
+body {
+	background-color:#E5D2D2;
+	font-family:Arial;
+}
+.container {
+	height:200px;
+	width:350px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-100px;
+	margin-left:-175px;
+	border:2px solid gray;
+}
+.container form {
+	margin:15px auto;
+	height:180px;
+	width:350px;
+}
+.container form table{
+	margin:10px auto;
+}
+form table tr th{
+	height:30px;
+	line-height:25px;
+}
+.container .information input {
+	border-radius:5px;
+	outline:none;
+	padding:3px;
+	height:20px;
+}
+.container form table tr td {
+	margin:3px;
+	line-height:20px;
+	padding:5px;
+}
+.login {
+	margin-left:30px;
+	margin-right:30px;
+}
+.login,.cancel {
+	outline:none;
+	border-radius:2px;
+}
+.btns {
+	margin-top:5px;
+}
+#divMsg {
+	position:absolute;
+	right:0px;
+	top:0px;
+	height:30px;
+	width:230px;
+	line-height:30px;
+	border:2px solid #8F8383;
+	background-color:#ECC55C;
+}

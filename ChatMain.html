@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>chatMain</title>
+	<link rel="stylesheet" type="text/css" href="Css/chatMain.css">
+	<script src="Jscript/jquery-1.4.2.js" type="text/javascript"></script>
+	<script src="Js/chatMain.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="divMain">
+		<div class="divTop">
+			<div class="divL">
+				<h3>大连民族大学聊天室</h3>
+				<div class="divShow" id="divContent">
+					
+				</div>
+			</div>
+			<div class="divR">
+				<h3>当前在线人员</h3>
+				<div class="divShow" id="divOnLine"></div>
+			</div>
+		</div>
+		<div class="divBot">
+			<table>
+				<tr>
+					<td colspan="2" id="divFace">
+						<img src="Face/1.gif " id="1">
+						<img src="Face/2.gif " id="2">
+						<img src="Face/3.gif " id="3">
+						<img src="Face/4.gif " id="4">
+						<img src="Face/5.gif " id="5">
+						<img src="Face/6.gif " id="6">
+						<img src="Face/7.gif " id="7">
+						<img src="Face/8.gif " id="8">
+						<img src="Face/9.gif " id="9">
+						<img src="Face/10.gif " id="10">
+					</td>
+				</tr>
+				<tr class="chat">
+					<td>
+						<textarea id="txtContent" cols="64" rows="3" class="txt"></textarea>
+					</td>
+					<td>
+						<input id="Button1" type="button" value="发&nbsp送" class="btn" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">发送内容不能为空~</td>
+				</tr>
+			</table>
+		</div>
+		<span id="divMsg" class="clsTip">正在发送数据…</span>
+	</div>
+	
+</body>
+</html>

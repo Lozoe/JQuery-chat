@@ -1,0 +1,75 @@
+body {
+    font-size: 11px;
+}
+
+h3 {
+	margin:3px auto;
+}
+
+#divMain {
+    height: 460px;
+    width: 1345px;
+    border: 5px solid #D7CFCF;
+}
+
+#divMain .divTop {
+    height: 330px;
+    width: 1350px;
+    /*border: 2px solid blue;*/
+    margin: 0px auto;
+}
+
+#divMain .divTop .divL {
+    height: 330px;
+    width: 1000px;
+    /*border: 2px solid red;*/
+    margin: 5px 5px auto 5px;
+    display: inline-block;
+}
+
+.divBot {
+	height:126px;
+	width:1278px;
+	/*border:2px solid gray;*/
+	margin-left:5px;
+}
+
+#divMain .divTop .divR {
+    height: 330px;
+    width: 250px;
+    /*border: 2px solid black;*/
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.divShow {
+    border: solid 1px #ccc;
+    height: 280px;
+    padding: 5px;
+    font-size: 12px;
+    overflow-y: scroll;
+}
+.chat td {
+	display:inline-block;
+	height:50px;
+}
+.txt {
+	height:45px;
+	line-height:20px;
+}
+.btn {
+	height:50px;
+	width:80px;
+	padding:5px;
+	font-size:23px;
+	border-radius:3px;
+	outline:none;
+}
+.clsTip {
+	display:block;
+	margin-top:10px;
+}
+.divBot table tr:last-child {
+	display:inline-block;
+	margin-top:10px;
+}
